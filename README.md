@@ -2,7 +2,7 @@
 
 <!-- ![logo](https://user-images.githubusercontent.com/44951692/145689946-2f101bf4-469d-465e-bd36-aca2a45321ac.png) -->
 
-The name? I know. That's why its a very basic app created initially for my sister. The name might change if she comes up with something creative😄🚀
+
 
 [![APK](https://img.shields.io/badge/download-APK-340000.svg)](https://github.com/carolinemusyoka/MovieApp/blob/master/app/app-debug.apk?raw=true)
 [![Platform](https://img.shields.io/badge/platform-Android-00E676.svg)](https://github.com/carolinemusyoka/MovieApp/blob/master/app/build.gradle)
