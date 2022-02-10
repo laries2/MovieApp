@@ -1,0 +1,54 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textViewStyle">@style/NunitoRegularStyle</item>
+
+    </style>
+
+    <style name="RatingBarTheme" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+    <style name="NunitoRegularStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/nunito</item>
+    </style>
+
+    <style name="NunitoSemiBoldStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/nunito_semibold</item>
+    </style>
+
+    <style name="TitleStyle" parent="android:Widget.TextView">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">@font/oswald</item>
+        <item name="android:lineSpacingMultiplier">0.75</item>
+    </style>
+
+    <style name="checkable_chip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:checkable">true</item>
+        <item name="android:textColor">@color/chip_colors_text</item>
+        <item name="chipBackgroundColor">@color/chip_colors</item>
+        <item name="checkedIcon">@null</item>
+        <item name="chipIconVisible">false</item>
+        <item name="chipStrokeColor">@color/colorAccent</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="ensureMinTouchTargetSize">true</item>
+        <item name="checkedIconVisible">false</item>
+    </style>
+
+    <bool name="lightNavEnabled">false</bool>
+
+</resources>
